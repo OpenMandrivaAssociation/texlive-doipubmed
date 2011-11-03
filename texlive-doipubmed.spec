@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/doipubmed
+# catalog-date 2009-09-27 10:36:15 +0200
+# catalog-license lppl
+# catalog-version 1.01
 Name:		texlive-doipubmed
 Version:	1.01
 Release:	1
@@ -47,6 +53,7 @@ bibliographies. A LaTeX2HTML style file is also provided.
 #- source
 %doc %{_texmfdistdir}/source/latex/doipubmed/doipubmed.dtx
 %doc %{_texmfdistdir}/source/latex/doipubmed/doipubmed.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ bibliographies. A LaTeX2HTML style file is also provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
