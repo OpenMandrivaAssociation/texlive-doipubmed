@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-doipubmed
 Version:	1.01
-Release:	10
+Release:	11
 Summary:	Special commands for use in bibliographies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/doipubmed
