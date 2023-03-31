@@ -1,6 +1,6 @@
 Name:		texlive-doipubmed
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Special commands for use in bibliographies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/doipubmed
