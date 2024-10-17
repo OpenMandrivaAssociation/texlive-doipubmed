@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Special commands for use in bibliographies
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/doipubmed
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/doipubmed
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/doipubmed.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/doipubmed.doc.r%{version}.tar.xz
